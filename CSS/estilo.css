@@ -481,3 +481,105 @@ footer span { color:var(--blue-light); }
   .feat-list { grid-template-columns:1fr; }
   .formation-grid { grid-template-columns:1fr; }
 }
+
+@media (max-width: 1024px) {
+
+  .page-inner {
+    padding: 0 20px;
+  }
+
+  .hero-title {
+    font-size: 4rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+
+  nav {
+    padding: 18px 20px;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .hero-title {
+    font-size: 2.8rem;
+    line-height: 1.1;
+  }
+
+  .hero-desc {
+    font-size: 0.95rem;
+  }
+
+  .page {
+    padding-top: 180px;
+  }
+
+  .chips {
+    justify-content: center;
+  }
+
+  .project-card {
+    padding: 22px;
+  }
+
+  .project-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .gh-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .formation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .techs {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .nav-logo {
+    font-size: 1.2rem;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .project-card {
+    padding: 18px;
+  }
+
+  .feat-list li {
+    font-size: 0.9rem;
+  }
+
+  .tech {
+    font-size: 0.75rem;
+    padding: 6px 10px;
+  }
+}
