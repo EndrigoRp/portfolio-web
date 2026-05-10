@@ -474,54 +474,10 @@ footer {
 footer span { color:var(--blue-light); }
 
 /* ─── RESPONSIVE ─── */
-/*@media(max-width:700px){
+@media(max-width:700px){
   .nav-links a { padding:0.4rem 0.6rem; font-size:0.74rem; }
   .contact-grid { grid-template-columns:1fr; gap:2rem; }
   .form-row { grid-template-columns:1fr; }
   .feat-list { grid-template-columns:1fr; }
   .formation-grid { grid-template-columns:1fr; }
-}*/
-
-@media (max-width: 768px) {
-
-  nav {
-    padding: 14px 18px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-  }
-
-  .nav-links {
-    display: flex;
-
-    flex-wrap: wrap;
-
-    justify-content: center;
-
-    gap: 10px;
-
-    width: 100%;
-
-    margin-top: 10px;
-  }
-
-  .nav-links a {
-    font-size: 0.95rem;
-
-    padding: 10px 14px;
-
-    border-radius: 12px;
-  }
-
-  .logo,
-  .nav-logo {
-    font-size: 2rem;
-
-    white-space: nowrap;
-  }
 }
-
